@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(223, 223, 91);
+  margin: 0;
+}
+
+.main-container {
+  background-color: whitesmoke;
+  width: 290px;
+  position: relative;
+  left: 40%;
+  top: 150px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.img-content {
+  text-align: center;
+  img {
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+}
+
+.para {
+  margin-top: 20px;
+  margin-left: 20px;
+  a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+  }
+}
+
+.info {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.topic {
+  margin-left: 20px;
+}
+
+.footer {
+  margin-left: 20px;
+  display: flex;
+  img {
+    border-radius: 20px;
+    display: inline;
+  }
+  p {
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+.main-container {
+  background-color: rgb(86, 86, 231);
+  width: 300px;
+  height: max-content;
+  text-align: center;
+  position: relative;
+  left: 40%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.top {
+  color: aliceblue;
+  h2 {
+    position: relative;
+    top: 10px;
+  }
+}
+
+.sub-container {
+  border-radius: 50%;
+  width: 150px;
+  position: relative;
+  left: 70px;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+.para {
+  color: aliceblue;
+  p {
+    width: 200px;
+    position: relative;
+    left: 50px;
+    color: aliceblue;
+  }
+}
